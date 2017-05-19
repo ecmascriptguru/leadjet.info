@@ -70,7 +70,7 @@
                 <div class="top-right links">
                     @if (Auth::check())
                         <a href="{{ url('/home') }}">Home</a>
-                        @if (Auth::user()->role_id == 1)
+                        @if (Voyager::can('browse_admin'))
                         <a href="{{ route('voyager.dashboard') }}">Admin Page</a>
                         @endif
                     @else
