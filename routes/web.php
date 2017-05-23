@@ -19,6 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
