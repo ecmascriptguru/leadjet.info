@@ -8,7 +8,7 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
-
+import CanvasJs from 'canvasjs';
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
