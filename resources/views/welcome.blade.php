@@ -83,6 +83,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     Welcome to Lead Jet!
+                    You are back.
                 </div>
 
                 <!--<div class="links">
